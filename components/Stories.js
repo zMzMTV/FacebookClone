@@ -3,29 +3,29 @@ import StoryCard from './StoryCard'
 
 const stories = [
     {
-        name: "Yassine Azem",
-        src: "https://links.papareact.com/zof",
-        profile: "https://links.papareact.com/kxk",
+        name: "Buzz Lightyear",
+        src: "/buzz.jpg",
+        profile: "/buzzp.jpg",
     },
     {
-        name: "Yassine Azem",
-        src: "https://links.papareact.com/zof",
-        profile: "https://links.papareact.com/kxk",
+        name: "Mark Zukerberg",
+        src: "/mark.jpg",
+        profile: "/markp.jpg",
     },
     {
-        name: "Yassine Azem",
-        src: "https://links.papareact.com/zof",
-        profile: "https://links.papareact.com/kxk",
+        name: "Nina Kravitz",
+        src: "/nina.jpg",
+        profile: "/ninap.jpg",
     },
     {
-        name: "Yassine Azem",
-        src: "https://links.papareact.com/zof",
-        profile: "https://links.papareact.com/kxk",
+        name: "Morgan Freeman",
+        src: "/moragan.jpg",
+        profile: "/morganp.jpg",
     },
     {
-        name: "Yassine Azem",
-        src: "https://links.papareact.com/zof",
-        profile: "https://links.papareact.com/kxk",
+        name: "Amelie Lens",
+        src: "/amilie.jpg",
+        profile: "/ameliep.jpg",
     },
 ]
 

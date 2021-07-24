@@ -49,8 +49,9 @@ const Header = () => {
                     width="40"
                     height="40"
                     layout="fixed"
+                    alt="profil"
                     />
-                    <p className="whitespace-nowrap font-semibold pr-3">{session.user.name}</p>
+                    <p className="hidden whitespace-nowrap text-sm lg:inline-flex font-semibold pr-3">{session.user.name}</p>
                     <ViewGridIcon className="icon"/>
                     <ChatIcon className="icon"/>
                     <BellIcon className="icon"/>

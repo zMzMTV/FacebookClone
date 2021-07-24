@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import Login from '../components/Login'
 import SideBar from '../components/SideBar'
 import Feed from '../components/Feed'
+import Widgets from '../components/Widgets'
 
 export default function Home({ session }) {
   if (!session) return <Login />
@@ -12,15 +13,18 @@ export default function Home({ session }) {
     <div>
       <Head>
         <title>Facebook</title>
-        <meta name="description" content="Clone of Facebook, mobile first" />
-        <link rel="icon" href="/favicon.ico" />
+        <meta name="description" content="Facebook clone, mobile first" />
+        <link rel="icon" href="/FACEBOOK-LOGO-300.png" />
       </Head>
 
-      <Header />
+      <header>
+        <Header />
+      </header>
 
-      <main className="flex">
+      <main className="flex bg-gray-100">
         <SideBar />
         <Feed />
+        <Widgets />
       </main>
     </div>
   )
