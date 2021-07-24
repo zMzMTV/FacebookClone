@@ -1,4 +1,4 @@
-[](demo.gif)
+![](demo.gif)
 
 # Facebook Clone 2.0
 
