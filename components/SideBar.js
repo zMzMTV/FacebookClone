@@ -11,6 +11,7 @@ import {
     ShoppingBagIcon,
     UserGroupIcon,
 } from '@heroicons/react/outline'
+import SideBarRow from './SideBarRow'
 
 const SideBar = () => {
     const [session, loading] = useSession();
