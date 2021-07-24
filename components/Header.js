@@ -23,7 +23,7 @@ const Header = () => {
     return (
         <div className="sticky top-0 z-50 bg-white flex items-center p-2 lg:px-5 shadow-md">
             <div className="flex items-center ">
-                <Image src="https://links.papareact.com/5me" width={40} height={40} layout="fixed" />
+                <Image src="https://links.papareact.com/5me" width={40} height={40} layout="fixed" alt="logo" />
 
                 <div className="flex ml-4 items-center rounded-full bg-gray-100 p-2" >
                     <SearchIcon className='h-6 text-gray-600' />
